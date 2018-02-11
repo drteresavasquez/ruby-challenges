@@ -8,4 +8,4 @@ def group_by_marks(marks, pass_marks)
     return status
 end
 
-p group_by_marks(marks, 30)
+p group_by_marks(marks, 80)
