@@ -4,6 +4,7 @@ end
 
 n = gets.to_i
 factorial do 
-    puts (n*n-1)*(n)
+    puts (1..n).inject(:*)
 end
+
 
